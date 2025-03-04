@@ -12,3 +12,8 @@ variable "staging_account_id" {
   description = "AWS Account ID for staging environment"
   type        = string
 }
+
+variable "corporate_vpn_cidr" {
+  description = "CIDR block for corporate VPN"
+  type        = string
+}

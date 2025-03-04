@@ -34,6 +34,11 @@ variable "bastion_key_name" {
   type        = string
 }
 
+variable "vpn_cidr" {
+  description = "CIDR block for corporate VPN"
+  type        = string
+}
+
 variable "tags" {
   description = "Additional tags for all resources"
   type        = map(string)
